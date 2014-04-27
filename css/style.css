@@ -1,0 +1,80 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+}   
+
+a {
+  color: #06c;
+}
+
+#nav {
+  text-align: right;
+  padding: .25em .5em;
+}
+#nav a {
+  padding: 0 .25em;
+}
+
+fieldset {
+  width: 20em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid gray;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table td, table th {
+  padding: .25em .5em;
+}
+
+table td {
+  text-align: left;
+}
+
+table tr {
+  border: 1px solid #aaa;
+}
+
+table tr.shade {
+  background-color: #f6f6f6;
+}
+
+table th {
+  text-align: center;
+}
+
+table th a {
+  text-decoration: none;
+  padding-left: 2px;
+  padding-right: 2px;
+  color: black;
+}
+
+table td.number {
+  text-align: right;
+}
+
+
+/* solely used for the demo, you needn't copy this */
+#demo {
+  background-color: #f9edbe;
+  border-bottom: 1px solid #f0c36d;
+  padding: 0.25em 0.5em;
+  text-align: right;
+  font-size: 100%;
+  color: #333;
+}
+
+#demo div {
+  float: left;
+}
+
+#demo a {
+  color: #333;
+}
